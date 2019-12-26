@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../style/images/escheresque_ste.png');
+}
+
+nav ul a {
+   color: #000;
+}
+
+nav .brand-logo {
+    color: #000;
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav i.material-icons {
+    color: #000;
+}
+
+.profilepic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.container.aboutme {
+    background-color: #fff;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: .25em;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    img.profilepic {
+        margin-bottom: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    nav .brand-logo {
+        font-size: 1.75em;
+    }
+}
+
+/* @media only screen and (max-width: 1200px) {
+    img.profilepic {
+        margin-right: 1em;
+    }
+} */
