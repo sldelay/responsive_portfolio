@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+/* html body {
+    height: 100%;
+} */
+
+
 body {
     background-image: url('../style/images/escheresque_ste.png');
 }
@@ -34,7 +39,46 @@ nav i.material-icons {
     margin-top: 2em;
     padding: 1em;
     border-radius: .25em;
+    margin-bottom: 2em;
 }
+
+img.portimg {
+    height: auto;
+    width: 100%;  
+}
+
+.container.portfolio {
+    background-color: #fff;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: .25em;
+}
+
+.portposition {
+    position: relative;
+    text-align: center;
+}
+
+
+div.bottomcentered a { 
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-decoration: none;
+    width: 75%;
+    position: absolute;
+    padding: .5em 2em;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+
+.container.contact {
+    background-color: #fff;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: .25em;
+}
+
 
 @media only screen and (max-width: 1200px) {
 
@@ -51,8 +95,4 @@ nav i.material-icons {
     }
 }
 
-/* @media only screen and (max-width: 1200px) {
-    img.profilepic {
-        margin-right: 1em;
-    }
-} */
+
